@@ -20,6 +20,8 @@ a + b ≔ ∀ t. (a → t) → (b → t) → t
 
 a - b ≔ ∃ c. a = b + c
 
+negate a ≔ 0 - a
+
 a ^ b ≔ b → a
 
 sqr a ≔ a ⋅ a
