@@ -40,7 +40,7 @@ a ^ b ≔ b → a
 sqr a ≔ a ⋅ a
 
 -- square root
-sqrt a ≔ ∃ b. a = b ⋅ b
+sqrt a ≔ ∃ b. a = sqr b
 
 -- logarithm
 log b a ≔ ∃ c. a = b ^ c
